@@ -1,0 +1,15 @@
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/bin/Debug/net6.0/threads
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/bin/Debug/net6.0/threads.deps.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/bin/Debug/net6.0/threads.runtimeconfig.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/bin/Debug/net6.0/threads.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/bin/Debug/net6.0/threads.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.csproj.AssemblyReference.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.GeneratedMSBuildEditorConfig.editorconfig
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.AssemblyInfoInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.AssemblyInfo.cs
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.csproj.CoreCompileInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/refint/threads.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/threads.genruntimeconfig.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/obj/Debug/net6.0/ref/threads.dll
