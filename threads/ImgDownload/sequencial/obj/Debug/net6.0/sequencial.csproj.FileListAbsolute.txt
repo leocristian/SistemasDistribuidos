@@ -1,0 +1,15 @@
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/bin/Debug/net6.0/sequencial
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/bin/Debug/net6.0/sequencial.deps.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/bin/Debug/net6.0/sequencial.runtimeconfig.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/bin/Debug/net6.0/sequencial.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/bin/Debug/net6.0/sequencial.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.csproj.AssemblyReference.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.GeneratedMSBuildEditorConfig.editorconfig
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.AssemblyInfoInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.AssemblyInfo.cs
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.csproj.CoreCompileInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/refint/sequencial.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/sequencial.genruntimeconfig.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/ImgDownload/sequencial/obj/Debug/net6.0/ref/sequencial.dll
