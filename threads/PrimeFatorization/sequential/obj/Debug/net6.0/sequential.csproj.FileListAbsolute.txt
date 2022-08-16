@@ -1,0 +1,15 @@
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.csproj.AssemblyReference.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.GeneratedMSBuildEditorConfig.editorconfig
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.AssemblyInfoInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.AssemblyInfo.cs
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.csproj.CoreCompileInputs.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/bin/Debug/net6.0/sequential
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/bin/Debug/net6.0/sequential.deps.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/bin/Debug/net6.0/sequential.runtimeconfig.json
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/bin/Debug/net6.0/sequential.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/bin/Debug/net6.0/sequential.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/refint/sequential.dll
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.pdb
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/sequential.genruntimeconfig.cache
+/home/leonardo/Desktop/github/SistemasDistribuidos/threads/PrimeFatorization/sequential/obj/Debug/net6.0/ref/sequential.dll
