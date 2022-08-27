@@ -16,9 +16,10 @@ def main():
     threads = []
 
     for i in range(10):
-        # Realiza a criação de uma nova thread que irá exeutar o método atribuido em target
+        # Realiza a criação de uma nova thread responsável por executar o método atribuido em target
         thread = threading.Thread(target=ExecThread, args=(i,))
         threads.append(thread)
+        
         # Inicializa a thread em modo de espera
         thread.start()
 
