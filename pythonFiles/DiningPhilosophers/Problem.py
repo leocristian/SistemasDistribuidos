@@ -11,24 +11,24 @@ class Philosopher(threading.Thread):
 
 	def run(self):
 		while True:
-			print(f'{threading.currentThread().getName()} has started thinking')
+			print(f'{threading.current_thread().name} has started thinking')
 			time.sleep(random.randint(1, 5))
 			
-			print(f'{threading.currentThread().getName()} has finished thinking')
+			print(f'{threading.current_thread().name} has finished thinking')
 			self.leftFork.acquire()
 			time.sleep(random.randint(1, 5))
 
 			try:
-				print(f'{threading.currentThread().getName()} has acquire the left fork')
+				print(f'{threading.current_thread().name} has acquire the left fork')
 				self.rightFork.acquire()
 				try:
-					print(f'{threading.currentThread().getName()} has attained both forks, currently eating')
+					print(f'{threading.current_thread().name} has attained both forks, currently eating')
 				finally:
 					self.rightFork.release()
-					print(f'{threading.currentThread().getName()} has released the right fork')
+					print(f'{threading.current_thread().name} has released the right fork')
 			finally:
 				self.leftFork.release()
-				print(f'{threading.currentThread().getName()} has released the left fork')
+				print(f'{threading.current_thread().name} has released the left fork')
 
 
 fork1 = threading.RLock()

@@ -4,8 +4,8 @@ import time
 
 class Producer(threading.Thread):
     def __init__(self, integer, condition):
-        threadiong.Thread.__init__(selq)
-        self.integers = integers
+        threading.Thread.__init__(self)
+        self.integers = integer
         self.condition = condition
 
     def run(self):
@@ -23,8 +23,8 @@ class Producer(threading.Thread):
 
 class Consumer(threading.Thread):
     def __init__(self, integer, condition):
-        threadiong.Thread.__init__(selq)
-        self.integers = integers
+        threading.Thread.__init__(self)
+        self.integers = integer
         self.condition = condition
 
     def run(self):

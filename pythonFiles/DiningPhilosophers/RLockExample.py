@@ -6,7 +6,7 @@ def test(lock):
     print(threading.current_thread())
     time.sleep(1)
     # what would happen if the the comment on line 9 is removed?
-    # lock.release() 
+    lock.release() 
 
 l1 = threading.RLock()
 
