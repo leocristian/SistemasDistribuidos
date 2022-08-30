@@ -1,0 +1,59 @@
+import threading
+import urllib.request
+import time
+import matplotlib.pyplot
+
+def DownloadImage(imgPath, fileName):
+    # print('Downloading image from ', imgPath)
+    urllib.request.urlretrieve(imgPath, fileName)
+    # print('Completed Download!')
+
+def ExecThread(i):
+    imageName = 'temp/img='+str(i)+'.jpg'
+    DownloadImage('https://picsum.photos/200/300?random=1', imageName)
+
+def main():
+
+    # Execute o código do slide 15 (download usando Threads) variando o número de
+    # Threads de 10 a 100 em 10 em 10 (10,20,30,,,100). Faça um gráfico dos
+    # resultados obtidos e faça uma análise dos seus resultados. O gráfico é uma linha
+    # ou uma curva, por quê?
+
+    nOfThreads = 10
+    execTimes = []
+    nOfThreadsArr = []
+
+    for i in range(10):
+
+        t0 = time.time()
+        threads = []
+
+        for i in range(nOfThreads):
+            # Realiza a criação de uma nova thread responsável por executar o método atribuido em target
+            thread = threading.Thread(target=ExecThread, args=(i,))
+            threads.append(thread)
+            # Inicializa a thread em modo de espera
+            thread.start()
+
+        # Executa todas as threads que estavam em modo de espera
+        for i in threads:
+            i.join()
+
+        t1 = time.time()
+        totalTime = t1-t0
+
+        execTimes.append(totalTime)
+        nOfThreadsArr.append(nOfThreads)
+
+        print(f'Qt Threads: {nOfThreads}\nTotal execution time {totalTime}')
+
+        nOfThreads += 10
+
+    matplotlib.pyplot.plot(nOfThreadsArr, execTimes)
+    matplotlib.pyplot.xlabel('Qtd. de threads')
+    matplotlib.pyplot.ylabel('Tempo de processamento (ms)')
+    matplotlib.pyplot.show()
+
+if __name__ == '__main__':
+    main()
+    
