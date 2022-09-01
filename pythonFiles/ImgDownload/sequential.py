@@ -3,12 +3,10 @@ import time
 
 def DownloadImage(imgPath, fileName):
     print('Downloading image from ', imgPath)
-
     # Método para fazer o download e salvar o arquivo no imgPath
     urllib.request.urlretrieve(imgPath, fileName)
 
 def main():
-    
     # Faz o download de 10 imagens sequencialmente
     for i in range(10):
         imageName = 'temp/img='+str(i)+'.jpg'
